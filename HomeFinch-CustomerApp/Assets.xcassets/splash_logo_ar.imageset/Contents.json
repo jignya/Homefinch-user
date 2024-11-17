@@ -1,0 +1,12 @@
+{
+  "images" : [
+    {
+      "filename" : "HF_Logo_Arabic_RGB_AW.png",
+      "idiom" : "universal"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

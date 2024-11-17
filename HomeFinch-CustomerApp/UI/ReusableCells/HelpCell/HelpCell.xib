@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Roboto-Regular.ttf">
+            <string>Roboto-Regular</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="HelpCell" rowHeight="79" id="KGk-i7-Jjw" customClass="HelpCell" customModule="HomeFinch_CustomerApp" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="333" height="79"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="333" height="79"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="i1R-SK-JpZ">
+                        <rect key="frame" x="20" y="0.0" width="293" height="79"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="6" translatesAutoresizingMaskIntoConstraints="NO" id="a6K-SF-7qc">
+                                <rect key="frame" x="10" y="20" width="178" height="39"/>
+                                <subviews>
+                                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" tag="25" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Fuel" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="elX-Q9-n3I">
+                                        <rect key="frame" x="0.0" y="0.0" width="178" height="16.5"/>
+                                        <fontDescription key="fontDescription" name="Roboto-Regular" family="Roboto" pointSize="14"/>
+                                        <color key="textColor" red="0.019607843137254902" green="0.062745098039215685" blue="0.30588235294117649" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="#service4568486489" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mRW-eq-r5i">
+                                        <rect key="frame" x="0.0" y="22.5" width="178" height="16.5"/>
+                                        <fontDescription key="fontDescription" name="Roboto-Regular" family="Roboto" pointSize="14"/>
+                                        <color key="textColor" red="0.50196078430000002" green="0.50196078430000002" blue="0.50196078430000002" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                            </stackView>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Completed" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ifh-uD-m8J">
+                                <rect key="frame" x="203" y="30" width="80" height="19"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="80" id="1ah-ua-AmW"/>
+                                    <constraint firstAttribute="height" constant="19" id="mLa-1S-ON1"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Roboto-Regular" family="Roboto" pointSize="14"/>
+                                <color key="textColor" red="0.36078431370000003" green="0.76078431369999999" blue="0.46666666670000001" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Arrow" translatesAutoresizingMaskIntoConstraints="NO" id="fNy-du-5sy">
+                                <rect key="frame" x="273" y="34.5" width="10" height="10"/>
+                                <color key="tintColor" red="0.50196078430000002" green="0.50196078430000002" blue="0.50196078430000002" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="10" id="cL6-iV-aU5"/>
+                                    <constraint firstAttribute="height" constant="10" id="wmY-Za-gGi"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="fNy-du-5sy" secondAttribute="trailing" constant="10" id="3kE-RU-QZN"/>
+                            <constraint firstItem="fNy-du-5sy" firstAttribute="centerY" secondItem="i1R-SK-JpZ" secondAttribute="centerY" id="Ibj-rj-Gdo"/>
+                            <constraint firstItem="a6K-SF-7qc" firstAttribute="centerY" secondItem="i1R-SK-JpZ" secondAttribute="centerY" id="Szf-GL-X9r"/>
+                            <constraint firstItem="ifh-uD-m8J" firstAttribute="centerY" secondItem="i1R-SK-JpZ" secondAttribute="centerY" id="UKc-Vi-p62"/>
+                            <constraint firstAttribute="trailing" secondItem="ifh-uD-m8J" secondAttribute="trailing" constant="10" id="hjG-g4-N9y"/>
+                            <constraint firstItem="ifh-uD-m8J" firstAttribute="leading" secondItem="a6K-SF-7qc" secondAttribute="trailing" constant="15" id="kNs-RR-a2W"/>
+                            <constraint firstItem="a6K-SF-7qc" firstAttribute="leading" secondItem="i1R-SK-JpZ" secondAttribute="leading" constant="10" id="qOQ-pP-Tnl"/>
+                        </constraints>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                <real key="value" value="10"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                <real key="value" value="0.80000000000000004"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                <color key="value" red="0.92156862750000001" green="0.96078431369999995" blue="0.96078431369999995" alpha="1" colorSpace="calibratedRGB"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="trailing" secondItem="i1R-SK-JpZ" secondAttribute="trailing" constant="20" id="BSX-vK-uQM"/>
+                    <constraint firstAttribute="bottom" secondItem="i1R-SK-JpZ" secondAttribute="bottom" id="OL9-QT-mPY"/>
+                    <constraint firstItem="i1R-SK-JpZ" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="20" id="Us1-KR-ke8"/>
+                    <constraint firstItem="i1R-SK-JpZ" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="fjS-Q8-l6Q"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="imgRightSide" destination="fNy-du-5sy" id="wtT-Uv-cvC"/>
+                <outlet property="lblNoofService" destination="mRW-eq-r5i" id="6Jj-E9-QhF"/>
+                <outlet property="lblStatus" destination="ifh-uD-m8J" id="tAM-rM-i4b"/>
+                <outlet property="lblTitle" destination="elX-Q9-n3I" id="p0K-nH-8Mp"/>
+                <outlet property="viewContain" destination="i1R-SK-JpZ" id="5cV-Z2-er1"/>
+            </connections>
+            <point key="canvasLocation" x="150" y="79.352678571428569"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="Arrow" width="4" height="7"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="retina6_5" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="splash_logo" translatesAutoresizingMaskIntoConstraints="NO" id="MDQ-eV-wQp">
+                                <rect key="frame" x="67" y="297.66666666666669" width="280" height="301.00000000000006"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="280" id="fmG-vy-vuc"/>
+                                </constraints>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="BottomLayer" translatesAutoresizingMaskIntoConstraints="NO" id="EMV-4e-ePn">
+                                <rect key="frame" x="0.0" y="612" width="414" height="250"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="250" id="Ib4-rY-YvJ"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" red="0.19215686269999999" green="0.72156862749999995" blue="0.72156862749999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="EMV-4e-ePn" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="7Rd-M5-OKC"/>
+                            <constraint firstItem="EMV-4e-ePn" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="8Wo-br-E2W"/>
+                            <constraint firstAttribute="trailing" secondItem="EMV-4e-ePn" secondAttribute="trailing" id="U5j-Ej-neN"/>
+                            <constraint firstItem="MDQ-eV-wQp" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="aSf-8n-kqA"/>
+                            <constraint firstItem="MDQ-eV-wQp" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="hui-Og-ouB"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="187" y="364"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="BottomLayer" width="640.33331298828125" height="288.33334350585938"/>
+        <image name="splash_logo" width="1916" height="301"/>
+    </resources>
+</document>
